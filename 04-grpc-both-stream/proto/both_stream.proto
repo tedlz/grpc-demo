@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package proto;
+
+// 定义流式请求信息
+message StreamRequest {
+	string question = 1;
+}
+
+// 定义流式响应信息
+message StreamResponse {
+	string answer = 1;
+}
+
+// 定义服务
+service Stream {
+	rpc Conversations(stream StreamRequest) returns (stream StreamResponse) {}
+}

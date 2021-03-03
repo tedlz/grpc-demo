@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package proto;
+
+// 定义请求信息
+message SimpleRequest {
+	string data = 1;
+}
+
+// 定义流式请求信息
+message StreamRequest {
+	string stream_data = 1;
+}
+
+// 定义响应信息
+message SimpleResponse {
+	int32 code = 1;
+	string value = 2;
+}
+
+// 定义服务
+service StreamClient {
+	rpc Route(SimpleRequest) returns (SimpleResponse) {}
+
+	// 客户端流式 RPC
+	rpc RouteList(stream StreamRequest) returns (SimpleResponse) {}
+}
