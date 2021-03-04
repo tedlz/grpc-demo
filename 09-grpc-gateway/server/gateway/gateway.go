@@ -17,6 +17,7 @@ import (
 	"google.golang.org/grpc/grpclog"
 
 	pb "grpc-demo/09-grpc-gateway/proto"
+	"grpc-demo/09-grpc-gateway/server/swagger"
 )
 
 // ProvideHTTP 把 grpc 服务转成 http 服务，让 grpc 同时支持 http
@@ -40,6 +41,9 @@ func ProvideHTTP(endpoint string, grpcServer *grpc.Server) *http.Server {
 	mux := http.NewServeMux()
 	// 注册 gwmux
 	mux.Handle("/", gwmux)
+	// 注册 swagger
+	mux.HandleFunc("/swagger/", swagger.ServeSwaggerFile)
+	swagger.ServeSwaggerUI(mux)
 	log.Println(endpoint + " HTTP.Listing with TLS and token...")
 	return &http.Server{
 		Addr:      endpoint,

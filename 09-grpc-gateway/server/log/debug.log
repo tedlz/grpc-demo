@@ -1,0 +1,43 @@
+{"level":"info","ts":"2021-03-04T14:28:19.644+0800","caller":"grpclog/grpclog.go:37","msg":"[core]parsed scheme: \"\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:28:19.645+0800","caller":"grpclog/grpclog.go:37","msg":"[core]scheme \"\" not registered, fallback to default scheme","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:28:19.645+0800","caller":"grpclog/grpclog.go:37","msg":"[core]ccResolverWrapper: sending update to cc: {[{0.0.0.0:8000  <nil> 0 <nil>}] <nil> <nil>}","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:28:19.645+0800","caller":"grpclog/grpclog.go:37","msg":"[core]ClientConn switching balancer to \"pick_first\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:28:19.645+0800","caller":"grpclog/grpclog.go:37","msg":"[core]Channel switches to new LB policy \"pick_first\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:28:19.645+0800","caller":"grpclog/grpclog.go:37","msg":"[core]Subchannel Connectivity change to CONNECTING","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:28:19.645+0800","caller":"grpclog/grpclog.go:37","msg":"[core]Channel Connectivity change to CONNECTING","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:28:19.645+0800","caller":"grpclog/grpclog.go:37","msg":"[core]Subchannel picks a new address \"0.0.0.0:8000\" to connect","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:28:19.659+0800","caller":"grpclog/grpclog.go:37","msg":"[core]Subchannel Connectivity change to READY","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:28:19.659+0800","caller":"grpclog/grpclog.go:37","msg":"[core]Channel Connectivity change to READY","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:28:29.222+0800","caller":"grpclog/grpclog.go:37","msg":"[core]parsed scheme: \"\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:28:29.223+0800","caller":"grpclog/grpclog.go:37","msg":"[core]scheme \"\" not registered, fallback to default scheme","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:28:29.223+0800","caller":"grpclog/grpclog.go:37","msg":"[core]ccResolverWrapper: sending update to cc: {[{0.0.0.0:8000  <nil> 0 <nil>}] <nil> <nil>}","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:28:29.223+0800","caller":"grpclog/grpclog.go:37","msg":"[core]ClientConn switching balancer to \"pick_first\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:28:29.223+0800","caller":"grpclog/grpclog.go:37","msg":"[core]Channel switches to new LB policy \"pick_first\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:28:29.223+0800","caller":"grpclog/grpclog.go:37","msg":"[core]Subchannel Connectivity change to CONNECTING","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:28:29.223+0800","caller":"grpclog/grpclog.go:37","msg":"[core]Channel Connectivity change to CONNECTING","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:28:29.223+0800","caller":"grpclog/grpclog.go:37","msg":"[core]Subchannel picks a new address \"0.0.0.0:8000\" to connect","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:28:29.239+0800","caller":"grpclog/grpclog.go:37","msg":"[core]Subchannel Connectivity change to READY","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:28:29.239+0800","caller":"grpclog/grpclog.go:37","msg":"[core]Channel Connectivity change to READY","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:32:07.252+0800","caller":"grpclog/grpclog.go:37","msg":"[core]parsed scheme: \"\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:32:07.252+0800","caller":"grpclog/grpclog.go:37","msg":"[core]scheme \"\" not registered, fallback to default scheme","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:32:07.252+0800","caller":"grpclog/grpclog.go:37","msg":"[core]ccResolverWrapper: sending update to cc: {[{0.0.0.0:8000  <nil> 0 <nil>}] <nil> <nil>}","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:32:07.252+0800","caller":"grpclog/grpclog.go:37","msg":"[core]ClientConn switching balancer to \"pick_first\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:32:07.252+0800","caller":"grpclog/grpclog.go:37","msg":"[core]Channel switches to new LB policy \"pick_first\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:32:07.252+0800","caller":"grpclog/grpclog.go:37","msg":"[core]Subchannel Connectivity change to CONNECTING","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:32:07.252+0800","caller":"grpclog/grpclog.go:37","msg":"[core]Channel Connectivity change to CONNECTING","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:32:07.253+0800","caller":"grpclog/grpclog.go:37","msg":"[core]Subchannel picks a new address \"0.0.0.0:8000\" to connect","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:32:07.267+0800","caller":"grpclog/grpclog.go:37","msg":"[core]Subchannel Connectivity change to READY","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T14:32:07.267+0800","caller":"grpclog/grpclog.go:37","msg":"[core]Channel Connectivity change to READY","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T15:32:50.535+0800","caller":"grpclog/grpclog.go:37","msg":"[core]parsed scheme: \"\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T15:32:50.536+0800","caller":"grpclog/grpclog.go:37","msg":"[core]scheme \"\" not registered, fallback to default scheme","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T15:32:50.536+0800","caller":"grpclog/grpclog.go:37","msg":"[core]ccResolverWrapper: sending update to cc: {[{0.0.0.0:8000  <nil> 0 <nil>}] <nil> <nil>}","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T15:32:50.536+0800","caller":"grpclog/grpclog.go:37","msg":"[core]ClientConn switching balancer to \"pick_first\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T15:32:50.536+0800","caller":"grpclog/grpclog.go:37","msg":"[core]Channel switches to new LB policy \"pick_first\"","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T15:32:50.536+0800","caller":"grpclog/grpclog.go:37","msg":"[core]Subchannel Connectivity change to CONNECTING","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T15:32:50.536+0800","caller":"grpclog/grpclog.go:37","msg":"[core]Channel Connectivity change to CONNECTING","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T15:32:50.536+0800","caller":"grpclog/grpclog.go:37","msg":"[core]Subchannel picks a new address \"0.0.0.0:8000\" to connect","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T15:32:50.552+0800","caller":"grpclog/grpclog.go:37","msg":"[core]Subchannel Connectivity change to READY","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T15:32:50.552+0800","caller":"grpclog/grpclog.go:37","msg":"[core]Channel Connectivity change to READY","system":"grpc","grpc_log":true}
+{"level":"info","ts":"2021-03-04T15:36:24.774+0800","caller":"zap/server_interceptors.go:39","msg":"finished unary call with code OK","grpc.start_time":"2021-03-04T15:36:24+08:00","system":"grpc","span.kind":"server","grpc.service":"proto.Simple","grpc.method":"Route","grpc.code":"OK","grpc.time_ms":0.024000000208616257}
+{"level":"info","ts":"2021-03-04T15:36:46.396+0800","caller":"zap/server_interceptors.go:39","msg":"finished unary call with code OK","grpc.start_time":"2021-03-04T15:36:46+08:00","system":"grpc","span.kind":"server","grpc.service":"proto.Simple","grpc.method":"Route","grpc.code":"OK","grpc.time_ms":0.02800000086426735}
+{"level":"info","ts":"2021-03-04T15:37:57.584+0800","caller":"zap/server_interceptors.go:39","msg":"finished unary call with code OK","grpc.start_time":"2021-03-04T15:37:57+08:00","system":"grpc","span.kind":"server","grpc.service":"proto.Simple","grpc.method":"Route","grpc.code":"OK","grpc.time_ms":0.027000000700354576}
